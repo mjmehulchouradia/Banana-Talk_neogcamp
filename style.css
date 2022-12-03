@@ -19,5 +19,55 @@ body{
 h1{
     text-align: center;
 }
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.txtarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.button1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.text_line{
+    margin-left: 36rem;
+    margin-top: 1.5rem;
+}
+#output{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 50%;
+}
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet">
+
+/* footer */
+
+.footer{
+    background-color: #FBBF24;
+    padding: 2rem 0rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-top-right-radius: 1rem;
+}
+.footer-heading{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+#about{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+

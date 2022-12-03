@@ -6,28 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talk | Neogcamp </title>
-    <style>
-        textarea {
-            width: 80%;
-            padding: 1rem;
-            height: 20%;
-            display: block;
-            margin: 1rem;
-        }
-
-        div {
-            font-size: larger;
-            margin: 1rem;
-        }
-
-        #output {
-            border: 1px solid;
-            margin: 1rem;
-            padding: 1rem;
-            width: 80%;
-            height: 10vh;
-        }
-    </style>
 
     <link rel="stylesheet" href="style.css"> </link>
 
@@ -40,18 +18,26 @@
         <h1>Banana Talk </h1>
     </nav>
 
-<img src="/Images/minions.jpg" alt="Unable to Load Image">
+<img src="/Images/minions-removebg-preview.png" alt="Unable to Load Image" class="image">
 
-    <textarea id="txt-input" placeholder="Enter your text here that you want to translate to Banana"> </textarea>
+    <textarea id="txt-input" placeholder="Enter your text here that you want to translate to Banana" cols="30" rows="3" class="txtarea"> </textarea>
 
-    <button id="btn"> Translate </button>
+    <button id="btn" class="button1"> Translate </button>
 
-    <div> Yout Output will comer here 👇</div>
+    <div class="text_line"> <strong>Output will comer here 👇</strong></div>
 
-    <div id="output"></div>
-    
+    <textarea name="outputblock" id="output" cols="30" rows="3"></textarea>
+
+    <footer class="footer">
+        <div class="footer-heading">About </div>
+        <p id="about">Are you a fan of minions? Did you know that the gibberish they say is an actual language.Use the translator to convert your text from English to Minion speak or Banana language.</p>
+    </footer>
+
+
+
+
     <script src="app.js" type="text/javascript"></script>
-
+    
 
 </body>
 
